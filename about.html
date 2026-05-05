@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portfolio — Sobre mí</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400&family=Epilogue:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <header class="site-header">
+      <div class="container">
+        <span class="logo">portfolio.</span>
+        <nav>
+          <a href="index.html" class="nav-link">Inicio</a>
+          <a href="about.html" class="nav-link active">Sobre mí</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero--small">
+        <div class="container">
+          <p class="hero-tag">Sobre mí</p>
+          <h1 class="hero-title"><em>¿Quién soy?</em></h1>
+        </div>
+      </section>
+
+      <section class="about-content">
+        <div class="container about-grid">
+
+          <div class="about-text">
+            <p>Cuéntate aquí. De dónde vienes, qué estudias, qué te interesa del diseño web. Algo que haga que quien lea esto sepa con quién está hablando.</p>
+            <p>Puedes hablar de proyectos en los que hayas trabajado, cosas que hayas aprendido, o simplemente qué te gustó de empezar a programar.</p>
+
+            <div class="skills">
+              <h2>Habilidades</h2>
+              <ul class="skill-list" id="skill-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Figma</li>
+              </ul>
+              <button class="btn btn--small" id="add-skill-btn">+ Añadir habilidad</button>
+            </div>
+          </div>
+
+          <aside class="about-sidebar">
+            <div class="info-card">
+              <h3>Datos</h3>
+              <dl>
+                <dt>Nombre</dt>
+                <dd>Tu Nombre</dd>
+                <dt>Estudios</dt>
+                <dd>Gràfica Interactiva</dd>
+                <dt>Ubicación</dt>
+                <dd>Barcelona</dd>
+                <dt>Email</dt>
+                <dd>tu@email.com</dd>
+              </dl>
+            </div>
+          </aside>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Publicado con <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
